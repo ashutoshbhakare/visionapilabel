@@ -6,6 +6,7 @@
   Create and download a JSON key file.
 
 ***Test it using docker run***
+
 docker run \
   -e GOOGLE_CLOUD_PROJECT="qwiklabs-gcp-04-cd1eee3e5c2e" \
   -e IMAGE_URI="gs://unnati19201920/Copy of one1.jpeg" \
@@ -14,6 +15,7 @@ docker run \
   vision-api-app
 
 ***Same can be done using Cloud Run***
+
 gcloud run deploy <service-name> \
   --image <image-url> \
   --region <region> \
