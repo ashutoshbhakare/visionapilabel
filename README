@@ -4,7 +4,7 @@ Google Cloud Console:
   Grant it the "Cloud Vision API User" role.
   Create and download a JSON key file.
 
-**Test it using docker run **
+**Test it using docker run**
 =====
 docker run \
   -e GOOGLE_CLOUD_PROJECT="qwiklabs-gcp-04-cd1eee3e5c2e" \
