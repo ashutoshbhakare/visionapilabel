@@ -1,4 +1,4 @@
-##Google Cloud Console:
+###Google Cloud Console:
   Navigate to "IAM & Admin" -> "Service Accounts."
   Create a service account (or use an existing one).
   Grant it the "Cloud Vision API User" role.
